@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
         backgroundColor: theme === "light" ? "black" : "white",
     },
     bpmText: {
-        color: "black",
+        color: theme === "light" ? "black" : "white",
         fontSize: 50,
     },
     slider: {
